@@ -4,7 +4,7 @@
 <li>Connect Oracle Server</li>
 <li>/home/oracle/base/12.2.0/db/bin 디렉토리로 이동. 오라클 설치 디렉토리는 조금 다를 수 있습니다.</li>
 <li>wrap iname=[file] oname=[file]<br>첫번째 인수는 원본 파일 두번째 인수를 생성할 파일이다.   <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">  </span><br><span class="line">[oracle@/home/oracle/base/<span class="number">12.2</span><span class="number">.0</span>/db/bin]$ wrap iname=CRYPTO.pks oname=CRYPTO.wrp</span><br><span class="line"></span><br><span class="line">PL/SQL Wrapper: Release <span class="number">12.2</span><span class="number">.0</span><span class="number">.1</span><span class="number">.0</span>- <span class="number">64</span>bit Production on Wed Jun <span class="number">03</span> <span class="number">12</span>:<span class="number">51</span>:<span class="number">48</span> <span class="number">2020</span></span><br><span class="line"></span><br><span class="line">Copyright (c) <span class="number">1993</span>, <span class="number">2009</span>, Oracle.  All rights reserved.</span><br><span class="line"></span><br><span class="line">Processing CRYPTO.pks to CRYPTO.wrp</span><br></pre></td></tr></table></figure></li>
-<li>SQL Developer 또는 SQL 관리툴을 이용하여 해당 파일을 오픈하고 컴파일한다.</li>
+<li>SQL Developer 또는 SQL 관리툴을 이용하여 CRYPTO.wrp 파일을 오픈하고 컴파일한다.</li>
 </ol>
 <ul>
 <li>개인 PC에서 wrap 파일을 생성 할 경우 오라클 사이트에서 오라클 DB을 설치하면 /bin 디렉토리에 wrap 파일이 설치된다. 오라클 클라이언트 아님…</li>
